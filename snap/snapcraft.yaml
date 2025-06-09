@@ -1,0 +1,99 @@
+name: papirus-extra-folders
+build-base: core24
+base: bare
+version: '2025-06-08'
+platforms:
+  all:
+    build-on: [amd64]
+    build-for: [all]
+summary: All extra Papirus icon folders
+description: |
+  A Snap that allows you to use all the extra Papirus icon theme folders in Snap applications
+grade: stable
+confinement: strict
+
+slots:
+  icon-themes:
+    interface: content
+    source:
+      read:
+        - $SNAP/share/icons/Papirus-Adwaita
+        - $SNAP/share/icons/Papirus-Adwaita-Dark
+        - $SNAP/share/icons/Papirus-Adwaita-Light
+        - $SNAP/share/icons/Papirus-Black
+        - $SNAP/share/icons/Papirus-Black-Dark
+        - $SNAP/share/icons/Papirus-Black-Light
+        - $SNAP/share/icons/Papirus-Bluegrey
+        - $SNAP/share/icons/Papirus-Bluegrey-Dark
+        - $SNAP/share/icons/Papirus-Bluegrey-Light
+        - $SNAP/share/icons/Papirus-Breeze
+        - $SNAP/share/icons/Papirus-Breeze-Dark
+        - $SNAP/share/icons/Papirus-Breeze-Light
+        - $SNAP/share/icons/Papirus-Brown
+        - $SNAP/share/icons/Papirus-Brown-Dark
+        - $SNAP/share/icons/Papirus-Brown-Light
+        - $SNAP/share/icons/Papirus-Carmine
+        - $SNAP/share/icons/Papirus-Carmine-Dark
+        - $SNAP/share/icons/Papirus-Carmine-Light
+        - $SNAP/share/icons/Papirus-Cyan
+        - $SNAP/share/icons/Papirus-Cyan-Dark
+        - $SNAP/share/icons/Papirus-Cyan-Light
+        - $SNAP/share/icons/Papirus-Darkcyan
+        - $SNAP/share/icons/Papirus-Darkcyan-Dark
+        - $SNAP/share/icons/Papirus-Darkcyan-Light
+        - $SNAP/share/icons/Papirus-Deeporange
+        - $SNAP/share/icons/Papirus-Deeporange-Dark
+        - $SNAP/share/icons/Papirus-Deeporange-Light
+        - $SNAP/share/icons/Papirus-Green
+        - $SNAP/share/icons/Papirus-Green-Dark
+        - $SNAP/share/icons/Papirus-Green-Light
+        - $SNAP/share/icons/Papirus-Grey
+        - $SNAP/share/icons/Papirus-Grey-Dark
+        - $SNAP/share/icons/Papirus-Grey-Light
+        - $SNAP/share/icons/Papirus-Indigo
+        - $SNAP/share/icons/Papirus-Indigo-Dark
+        - $SNAP/share/icons/Papirus-Indigo-Light
+        - $SNAP/share/icons/Papirus-Magenta
+        - $SNAP/share/icons/Papirus-Magenta-Dark
+        - $SNAP/share/icons/Papirus-Magenta-Light
+        - $SNAP/share/icons/Papirus-Nordic
+        - $SNAP/share/icons/Papirus-Nordic-Dark
+        - $SNAP/share/icons/Papirus-Nordic-Light
+        - $SNAP/share/icons/Papirus-Orange
+        - $SNAP/share/icons/Papirus-Orange-Dark
+        - $SNAP/share/icons/Papirus-Orange-Light
+        - $SNAP/share/icons/Papirus-Palebrown
+        - $SNAP/share/icons/Papirus-Palebrown-Dark
+        - $SNAP/share/icons/Papirus-Palebrown-Light
+        - $SNAP/share/icons/Papirus-Paleorange
+        - $SNAP/share/icons/Papirus-Paleorange-Dark
+        - $SNAP/share/icons/Papirus-Paleorange-Light
+        - $SNAP/share/icons/Papirus-Pink
+        - $SNAP/share/icons/Papirus-Pink-Dark
+        - $SNAP/share/icons/Papirus-Pink-Light
+        - $SNAP/share/icons/Papirus-Red
+        - $SNAP/share/icons/Papirus-Red-Dark
+        - $SNAP/share/icons/Papirus-Red-Light
+        - $SNAP/share/icons/Papirus-Teal
+        - $SNAP/share/icons/Papirus-Teal-Dark
+        - $SNAP/share/icons/Papirus-Teal-Light
+        - $SNAP/share/icons/Papirus-Violet
+        - $SNAP/share/icons/Papirus-Violet-Dark
+        - $SNAP/share/icons/Papirus-Violet-Light
+        - $SNAP/share/icons/Papirus-White
+        - $SNAP/share/icons/Papirus-White-Dark
+        - $SNAP/share/icons/Papirus-White-Light
+        - $SNAP/share/icons/Papirus-Yaru
+        - $SNAP/share/icons/Papirus-Yaru-Dark
+        - $SNAP/share/icons/Papirus-Yaru-Light
+        - $SNAP/share/icons/Papirus-Yellow
+        - $SNAP/share/icons/Papirus-Yellow-Dark
+        - $SNAP/share/icons/Papirus-Yellow-Light
+parts:
+  icon-themes:
+    plugin: dump
+    source: https://github.com/Kyuyrii/papirus-extra-folders/releases/download/2025-06-08/snap-creation-files_2025-06-08.deb
+    organize:
+      usr/share/icons: share/icons
+    prime:
+      - share/icons

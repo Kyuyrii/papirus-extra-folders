@@ -1,7 +1,7 @@
 name: papirus-extra-folders
 build-base: core24
 base: bare
-version: '2025-06-08'
+version: '2025-06-30'
 platforms:
   all:
     build-on: [amd64]
@@ -92,7 +92,7 @@ slots:
 parts:
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/papirus-extra-folders/releases/download/2025-06-08/snap-creation-files_2025-06-08.deb
+    source: https://github.com/Kyuyrii/papirus-extra-folders/releases/download/2025-06-30/snap-creation-files_2025-06-30.deb
     organize:
       usr/share/icons: share/icons
     prime:

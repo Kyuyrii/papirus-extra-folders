@@ -92,7 +92,7 @@ slots:
 parts:
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/papirus-extra-folders/releases/download/2025-06-30-icons/papirus-extra-folders_2025-06-30.tar.gz
+    source: https://github.com/Kyuyrii/papirus-extra-folders/releases/download/2025-06-30-creator/snap-creation-files_2025-06-30.deb
     organize:
       usr/share/icons: share/icons
     prime:

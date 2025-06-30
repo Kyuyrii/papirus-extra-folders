@@ -13,7 +13,7 @@ The reason Papirus Extra Folders exists is to simplify the use of the Papirus ic
 
 ## Usage
 
-Download the files containing the folders with the icons in [Releases](https://github.com/Kyuyrii/papirus-extra-folders/releases)
+The tar.gz files containing the icon theme are in [Releases](https://github.com/Kyuyrii/papirus-extra-folders/releases)
 
 #### If you prefer to generate the folders with papirus-folders, follow these instructions:
 

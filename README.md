@@ -1,8 +1,5 @@
-# Papirus-Extra-Folders
-
-
 <h3 align="center">
-	<img src="https://github.com/user-attachments/assets/1c5b7718-6115-4782-8557-310c61660e04" width="100" alt="Logo"/><br/>
+	<img src="https://github.com/user-attachments/assets/1c5b7718-6115-4782-8557-310c61660e04" width="250" alt="Logo"/><br/>
 	Papirus-Extra-Folders
 </h3>
 
@@ -13,7 +10,7 @@ The reason Papirus Extra Folders exists is to simplify the use of the Papirus ic
 
 ## Usage
 
-The tar.gz files containing the icon theme are in [Releases](https://github.com/Kyuyrii/papirus-extra-folders/releases)
+You can download the created folders with the icons [here](https://github.com/Kyuyrii/papirus-extra-folders/releases/tag/icons)
 
 #### If you prefer to generate the folders with papirus-folders, follow these instructions:
 
@@ -23,7 +20,7 @@ The tar.gz files containing the icon theme are in [Releases](https://github.com/
     ```
 2. Download and extract the papirus-extra-folders-creator files to the papirus-folders folder
     ```
-    wget https://github.com/Kyuyrii/papirus-extra-folders/releases/download/2025-06-30/papirus-extra-folders-creator.tar.gz && tar -xvzf papirus-extra-folders-creator.tar.gz
+    wget https://github.com/Kyuyrii/papirus-extra-folders/releases/download/creator/papirus-extra-folders-creator.tar.gz && tar -xvzf papirus-extra-folders-creator.tar.gz
     ```
 3. Run the script:
     ```
